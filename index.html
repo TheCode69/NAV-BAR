@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            text-decoration: none;
+            list-style: none;
+            box-sizing: border-box;
+        }
+        body{
+            background-color: rgb(17, 17, 17);
+            font-family: serif;
+            font-size: medium;   
+           
+        }
+        #nav{
+            background: rgb(107, 106, 112);
+            text-decoration: none;   
+            height: 50px;
+            width: 100%;
+        }
+        #nav ul{
+                    float: right;
+                    margin-right: 20px;
+        }
+        #nav  ul li {
+            padding: 5px;
+            
+            display: inline-block;
+            text-align:right ;
+            height: 80px;
+            margin: 0 5px;
+           
+        }
+        #nav a{
+            color: rgb(140, 182, 238);
+            text-decoration: none;
+            padding: 5px;
+            height: 80px;
+        }
+       #nav label {
+        color: rgb(84, 241, 21);
+        font-size: 35px;
+       
+        padding: 5 100px;
+        font-weight: bold;
+        }
+
+        #nav a:hover{
+            background:red  ;
+            transition: .5s ;
+        }
+    </style>
+</head>
+<body>
+    <div id="nav">
+        <label id="logo">CODE</label> 
+        <ul>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">PRODUCTS</a></li>
+            <li><a href="#">CART</a></li>
+            <li><a href="#">ABOUT</a></li>
+            <li><a href="#">CONTACT</a></li>
+        </ul>
+        
+    </div>
+</body>
+</html>
